@@ -1,0 +1,18 @@
+For this assignment, you will need to implement a ticketing system in which multiple threads are invoked (the number is determined by command line arguments) and each thread is given a ticket (number) and will wait until their ticket numbers have been called.
+
+Instructions
+
+Write python code in assignment.py to implement a simple ticketing system.  You will need to insert code below comments describing what is needed. Such as incrementing a variable or having a thread wait until a shared variable is equal to its id.  The grader is looking for print statements related to threads starting and being completed, so do not add or remove extra print lines to the program's output.  Also, threads in languages such as python can be tricky and sometimes it may take a couple of tries running and then submitting your output for the assignment to be completed. Ensure that the variable USERNAME should be your username. Lastly, the thread indexes that are printed out need to be zero-based, meaning the initial thread id should be 0.
+
+Update .user to include only one line with the username from above.
+
+Install all required python packages by running  make clean build.
+
+Execute the python code via python3 assignment.py -n num_threads -u username for debugging purposes.
+
+Once satisfied with your code, click the Execute Assignment Runs button on the bottom of the page, to see if 3 output-*.txt files are generated with content that indicates that the program executed a run completely. If so proceed to the next step. Otherwise, consider updating your code until this step completes successfully.
+
+Click the Submit button to submit the assignment output for grading.
+
+Note: Do not modify any print statements, writing to files, or output text files as this may cause an  assignment submission to fail. Also, if the autograder is not working for some reason contact me at cpascal3@jh.edu and I will attempt to fix any issues that are occurring.
+
